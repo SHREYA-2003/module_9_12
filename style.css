@@ -1,0 +1,16 @@
+.demo {
+        color: aqua;
+        background-color: red;
+    }
+    #para {
+        color:teal;
+        background-color: black;
+    }
+    *{
+        color: green;
+        background-color: white;
+    }
+    h4,p{
+        color: black;
+        background-color: pink;
+    }
