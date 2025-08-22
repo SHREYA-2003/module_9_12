@@ -14,3 +14,95 @@
         color: black;
         background-color: pink;
     }
+/* Background Effects */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #ffecd2, #fcb69f);
+}
+
+/* Navigation Styling */
+header {
+  background: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  color: yellow; /* 🧑‍🎨 Pseudo-class */
+}
+
+/*Text Styling + Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Georgia", serif;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+p {
+  line-height: 1.6;
+  font-size: 18px;
+  color: #333;
+}
+
+/*Positioning Example */
+.box {
+  width: 150px;
+  height: 150px;
+  background: coral;
+  position: relative;
+  animation: moveBox 5s infinite alternate;
+}
+@keyframes moveBox {
+  from { left: 0; top: 0; }
+  to { left: 200px; top: 100px; }
+}
+
+/*Transform & Hover Animation */
+img {
+  width: 200px;
+  transition: transform 0.3s ease;
+}
+img:hover {
+  transform: scale(1.2) rotate(10deg);
+}
+
+/*Button Styling */
+button {
+  padding: 10px 15px;
+  background: teal;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+  transition: background 0.3s;
+}
+button:hover {
+  background: darkcyan;
+}
+
+/*Pseudo-elements */
+h2::after {
+  content: " ✨";
+  color: gold;
+}
+
+footer {
+  background: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
